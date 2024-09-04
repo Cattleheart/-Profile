@@ -183,10 +183,9 @@ img.rCrop {
     transition: .5s;
 }
 .pBox span {
-    font-size: 2rem;
+    font-size: 1.35rem;
     display: block;
     text-align: center;
-
     line-height: 2.6;
 }
 .pBox:hover {
