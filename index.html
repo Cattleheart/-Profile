@@ -24,12 +24,6 @@
         color: white;
     }
 </style>
-    <div class="sidenav">
-        <a href="#hPlay"><i class="fa-solid fa-play pe-3"></i>Play</a>
-        <a href="#mProfile"><i class="fa-solid fa-user pe-3"></i>Profile</a>
-        <a href="#mPlaylist"><i class="fa-solid fa-music pe-3"></i>Playlist</a>
-        <a href="#mPortfolio"><i class="fa-solid fa-briefcase pe-3"></i>Portfolio</a>
-    </div>
     <header class="header">
         <div id="hPlay" class="hHero mb-5 px-5">
             <div class="my-auto">
@@ -48,7 +42,8 @@
                 </ul>
             </div>
         </div>
-        <div class="container pb-2 px-5">
+        <div id="hProfile" class="container pb-5 px-5">
+            <h1 class="mSatisfy">Profile<hr class="mt-1"></h1>
             <div class="hContainer">
                 <div class="hSelfie">
                     <img src="assets/avatar.png" class="rCrop">
@@ -69,31 +64,59 @@
             </div>
         </div>
     </header>
+    <nav class="nav">
+        <a href="#hPlay"><i class="fa-solid fa-play pe-3"></i><p>Play</p></a>
+        <a href="#hProfile"><i class="fa-solid fa-user pe-3"></i><p>Profile</p></a>
+        <a href="#mPlaylist"><i class="fa-solid fa-music pe-3"></i><p>Playlist</p></a>
+        <a href="#mPortfolio"><i class="fa-solid fa-briefcase pe-3"></i><p>Portfolio</p></a>
+    </nav>
     <main class="main">
-        <div id="mProfile" class="container pb-2 px-5">
-            <div class="row">
-                    <h1 class="mSatisfy">Profile<hr class="mt-1"></h1>
-                    <div class="my-auto" style="height: 700px;">
-                        <h1 style="text-align: center; height: 700px;">W.I.P</h1>
-                    </div>
-            </div>
-        </div>
-        <div id="mPlaylist" class="container pb-2 px-5">
+        <div id="mPlaylist" class="container pb-5 px-5">
             <div class="row">
                     <h1 class="mSatisfy">Playlist<hr class="mt-1"></h1>
-                    <div class="my-auto" style="height: 400px;">
-                        <h1 style="text-align: center; height: 400px;">W.I.P</h1>
+                    <div class="my-auto">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1uwFc8ToUryFS1UePaIOF6?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     </div>
             </div>
         </div>
-        <div id="mPortfolio" class="container pb-2 px-5">
+        <div id="mPortfolio" class="container pb-5 px-5">
             <div class="row">
-                    <h1 class="mSatisfy">Portfolio<hr class="mt-1"></h1>
-                    <div class="my-auto" style="height: 900px;">
-                        <h1 style="text-align: center; height: 900px;">W.I.P</h1>
-                    </div>
+                <h1 class="mSatisfy">Portfolio<hr class="mt-1"></h1>
+                <div class="my-auto">
+                    <div class="pContainer">
+                        <div class="pBox">
+                            <a href="https://drive.google.com/file/d/11v2_RTC6kv4aRP7TP6OtmF2oxHHr-PYw/view?usp=drive_link" target="_blank">
+                            <img src="assets/Curtain Rail.jpg">
+                            </a>
+                            <span>Wanniyom</span>
+                        </div>
+                        <div class="pBox">
+                            <a href="https://drive.google.com/file/d/10yY9Lktx2UWGOyQ2sYvim3_J7ZUp1Dnu/view?usp=drive_link" target="_blank">
+                            <img src="assets/Picture Rail.jpg">
+                            </a>
+                            <span>Annual</span>
+                        </div>
+                        <div class="pBox">
+                            <a href="https://drive.google.com/file/d/1OFwZtMojUD3304taQfGlWjMS3XmahVmQ/view?usp=drive_link" target="_blank">
+                            <img src="assets/Roller Blind.jpg">
+                            </a>
+                            <span>Product</span>
+                        </div>
+                        <div class="pBox">
+                            <a href="https://drive.google.com/file/d/13Fotw8Fl5J5d1FdO81XfMS4dpRO3CJl3/view?usp=drive_link" target="_blank">
+                            <img src="assets/Roman Shade.jpg">
+                            </a>
+                            <span>Catalog</span>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
     </main>
+    <footer>
+        <div id="footer">
+            <p>© 2024 Cattleheart</p>
+        </div>
+    </footer>
 </body>
 </html>
